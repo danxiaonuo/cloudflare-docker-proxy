@@ -1,5 +1,5 @@
 name = "cloudflare-docker-proxy"
-compatibility_date = "2023-12-01"
+compatibility_date = "2025-01-01"
 
 [dev]
 ip = "0.0.0.0"
@@ -7,7 +7,7 @@ port = 8787
 local_protocol = "http"
 
 [env.vars]
-CUSTOM_DOMAIN = "libcuda.so"
+CUSTOM_DOMAIN = "xiaonuo.live"
 
 [env.dev.vars]
 MODE = "debug"
