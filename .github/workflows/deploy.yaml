@@ -7,6 +7,13 @@ on:
     paths-ignore:
       - '**.md'
   repository_dispatch:
+  # 手动触发工作流
+  workflow_dispatch:
+    inputs:
+      build:
+        description: 'Deploy to Cloudflare Workers'
+        required: true
+        default: 'Deploy to Cloudflare Workers'
 
 jobs:
   build-and-deploy:
